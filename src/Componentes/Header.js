@@ -55,13 +55,15 @@ const Header = () => {
     return <div className="header">
 
         <div className="main">
-            <h1>PokeStore</h1>
+            <h1>The Pokemon Store</h1>
+            <div className="search-container">
             <div className="search">
                 <input type="text" placeholder="Choose your pokemon" required onChange={handleChange} >
                 </input>
                 <div className="btn">
                     <FaSearch></FaSearch>
                 </div>
+            </div>
             </div>
         </div>
     </div>;
